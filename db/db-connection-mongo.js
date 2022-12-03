@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const getconnection= async ()=> {
     try{
-        const url = "mongodb://Proyecto-database:27017/Proyecto";
+        const url = "mongodb://proyecto-database:27017/proyecto";
         await mongoose.connect(url);
     
         console.log("conexion exitosa");
